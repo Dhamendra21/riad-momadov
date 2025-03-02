@@ -15,7 +15,7 @@ import LocomotiveScroll from 'locomotive-scroll'
 function App() {
   let locomotivescroll = new LocomotiveScroll()
   return (
-    <div className='w-full '>
+    <div className='w-full overflow-x-hidden '>
       <Lendingpage/>
       <Intro/>
       <Introwhite/>
