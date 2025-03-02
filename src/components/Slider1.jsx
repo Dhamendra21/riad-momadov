@@ -27,7 +27,7 @@ function Slider1() {
   }, []);
 
   return (
-    <section ref={sectionRef} className="h-screen relative overflow-x-hidden">
+    <section ref={sectionRef} className=" h-fit relative overflow-x-hidden">
       <div
         ref={containerRef}
         className="images w-full   px-10 flex gap-10"
@@ -43,14 +43,14 @@ function Slider1() {
             <img
               ref={(el) => (imageRefs.current[index] = el)}
               key={index}
-              className="object-cover w-full md:w-1/2 md:h-[80vh] min-h-full"
+              className="object-cover w-full md:w-1/2 h-[40vh] md:h-[80vh] min-h-full"
               src={images}
               alt=""
             />
           );
         })}
         <h1 className="text-[13rem] md:text-[25rem] text-[#110C13]">Gist</h1>
-        <div className="w-full h-[100vh] bg-[#110C13] ">  </div>
+        {/* <div className="w-full h-[100vh] bg-[#110C13] ">  </div> */}
       </div>
     </section>
   );

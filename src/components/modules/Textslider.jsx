@@ -30,10 +30,9 @@ function Textslider({color,paragraph}) {
     <div
     ref={containerRef}
     style={{color:color}}
-    className='flex    sm:text-[35rem]  text-[17rem]'>
-    {paragraph
-    .split(" ")
-    .map((t,i)=> <span ref={(el)=>(sectionRefs.current[i]= el)} key={i}>{t}</span>)
+    className='flex whitespace-nowrap    sm:text-[35rem]  text-[17rem]'>
+    {[paragraph]
+    .map((t,i)=> <span className="-translate-x-0 px-5" ref={(el)=>(sectionRefs.current[i]= el)} key={i}> {t} </span>)
 }
 </div>
   )
