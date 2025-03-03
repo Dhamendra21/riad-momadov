@@ -19,7 +19,7 @@ function Textslider({color,paragraph}) {
         pin: true,
         // markers: true, // Debugging: Remove for production
       },
-      x: "-200%",
+      x: "-220%",
       duration: 5,
       ease: Linear,
     });
