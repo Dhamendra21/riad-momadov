@@ -15,7 +15,7 @@ function BgSlider() {
         start: "top 10%",
         end: "top -30%",
         
-        scrub: true,
+        scrub: 1,
         // markers: true, 
         pin: true,
       },
@@ -25,7 +25,8 @@ function BgSlider() {
      duration:2,
       width:"100%",
       left:0,
-      ease:Linear
+      ease:Linear,
+      duration:5
     })
     tl.to(sliderRef.current,{
       y:100

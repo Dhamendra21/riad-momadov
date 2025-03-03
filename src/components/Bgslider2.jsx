@@ -59,7 +59,7 @@ function Bgslider2() {
       },
       x: "-320%",
       duration: 5,
-      ease: Linear,
+      // ease: Linear,
     });
   }, );
   return (
@@ -68,7 +68,7 @@ function Bgslider2() {
     <Paragraph title={"Background"} color={'white'} background={"#110C13"} Paragraph={"Riad’s back catalog includes Surrogate dreams II EP, single Waiting for Aziza (both 2020), I Hope This Night Will Never End EP, East of Eden (both 2021), Live at The Pushkin Museum. Part I, To the East of Paradise (both 2022), Live at The Pushkin Museum. Part II (2024)"} />
     
     <div className="w-fit h-screen  justify-center flex-shrink-0 ">
-        <Textslider color={"#fff"} paragraph={"Listen"}/>
+        <Textslider color={"#110C13"} paragraph={"Listen"}/>
     </div>
     <div  className="cards flex items-center px-20 gap-20">
       {
